@@ -1,0 +1,102 @@
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+p,
+li {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+a {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  /* 所有字母大写 */
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+a:link {
+  /* 针对没有跳转地址的超链接标签 */
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  /* 已访问 */
+  color: #1098ad;
+}
+
+a:hover {
+  /* 鼠标悬停 */
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  /* 鼠标点击时 */
+  font-style: italic;
+  background-color: black;
+}
