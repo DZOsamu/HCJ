@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexbox</title>
+  <style>
+    .container {
+      background-color: #ddd;
+      font-size: 32px;
+      margin: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .el {
+      margin: 15px;
+    }
+
+    .el--1 {
+      background-color: red;
+      align-self: flex-start;
+    }
+
+    .el--2 {
+      background-color: orange;
+    }
+
+    .el--3 {
+      background-color: yellow;
+      height: 150px;
+    }
+
+    .el--4 {
+      background-color: green;
+    }
+
+    .el--5 {
+      background-color: blue;
+      order: 1;
+    }
+
+    .el--6 {
+      background-color: skyblue;
+      align-self: stretch;
+    }
+
+    .el--7 {
+      background-color: purple;
+    }
+
+    .el--8 {
+      background-color: aquamarine;
+      order: -1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="el el--1">HTML</div>
+    <div class="el el--2">and</div>
+    <div class="el el--3">CSS</div>
+    <div class="el el--4">are</div>
+    <div class="el el--5">amazing</div>
+    <div class="el el--6">language</div>
+    <div class="el el--7">to</div>
+    <div class="el el--8">learn</div>
+  </div>
+</body>
+
+</html>
